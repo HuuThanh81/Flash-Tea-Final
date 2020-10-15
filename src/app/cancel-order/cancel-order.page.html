@@ -1,9 +1,24 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>cancel-order</ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-
+<ion-content fullscreen>
+  <div class="header">
+    <div class="icon"></div>
+    <div class="search">
+      <input type="text" placeholder="Search...">
+      <div class="icon-search"></div>
+    </div>
+    <div class="avt"></div>
+  </div>
+  <div class="notifi">
+    <div class="mess">
+      <div class="success"></div>
+      <div class="imess">
+        <div class="icon-active"></div>
+        <h1>Hủy thành công</h1>
+      </div>
+    </div>
+  </div>
+  <div class="control">
+    <ion-button class="btn-continute" (click)="onClick()" expand="block" fill="clear" shape="round">
+      Tiếp tục mua sắm
+    </ion-button> 
+  </div>
 </ion-content>

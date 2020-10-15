@@ -1,0 +1,125 @@
+.header{
+    width: 100%;
+    margin: 7% 0 1% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .icon{
+        margin-left: 4%;
+        width: 20px;
+        height: 25px;
+        background: url('../../../assets/icon/back.png') no-repeat;
+    }
+
+    .search{
+        margin: 0 5% 0 5%;
+        width: 63%;
+        height: 30px;
+        border: 1px solid #66696E;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+
+        input{
+            font-size: 14px;
+            padding-left: 10px;
+            width: 100% - 20%;
+            border: none;
+            outline: none;
+        }
+
+        .icon-search{
+            margin: 8px;
+            float: right;
+            width: 14px;
+            height: 14px;
+            background-image: url('../../../assets/icon/iconsearch.png');
+        }
+    }
+
+    .avt{
+        margin-right: 5%;
+        width: 40px;
+        height: 40px;
+        border-radius: 100px ;
+        background: url('../../../assets/avt.jpg') no-repeat;
+        background-size: cover;
+    }
+}
+
+.notifi{
+    margin-top: 10%;
+    width: 100%;
+    height: 304px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .mess{
+        width: 330px;
+        height: 304px;
+        border-radius: 4px;
+        background: #fff;
+        filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.25));
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .success{
+            width: 180px;
+            height: 180px;
+            border-radius: 100%;
+            background: url('../../../assets/icon/icon-cancel-order-success.svg');
+        }
+
+        .imess{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .icon-active{
+                width: 30px;
+                height: 30px;
+                border-radius: 100%;
+                background: url('../../../assets/icon/icon-acctive.svg');
+            }
+
+            h1{
+                margin-left: 10px;
+                font-weight: bold;
+                padding-bottom: 5px;
+                font-size: 25px;
+                display: flex;
+                color: #03A87C;
+            }
+        }
+    }
+}
+
+.control{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+    .btn-continute{
+        width: 80%;
+        height: 40px;
+        margin: 20px 0 0 10%;
+        background: #03A87C;
+        filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.25));
+        border-radius: 8px;
+        color: #fff;
+        font-weight: bold;
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+
+
+
